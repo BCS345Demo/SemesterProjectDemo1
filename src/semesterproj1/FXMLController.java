@@ -11,6 +11,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 
 /**
  * FXML Controller class
@@ -21,6 +22,10 @@ public class FXMLController implements Initializable {
 
     @FXML
     private Button btn1;
+    @FXML
+    private Button Btn2;
+    @FXML
+    private Label myLabel;
 
     /**
      * Initializes the controller class.
@@ -34,6 +39,11 @@ public class FXMLController implements Initializable {
 
     @FXML
     private void doSomething(ActionEvent event) {
+        
+    }
+
+    @FXML
+    private void doSomething2(ActionEvent event) {
     }
     
 }
