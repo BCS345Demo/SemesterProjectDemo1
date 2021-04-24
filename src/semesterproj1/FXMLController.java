@@ -7,7 +7,10 @@ package semesterproj1;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 
 /**
  * FXML Controller class
@@ -15,6 +18,9 @@ import javafx.fxml.Initializable;
  * @author moaat
  */
 public class FXMLController implements Initializable {
+
+    @FXML
+    private Button btn1;
 
     /**
      * Initializes the controller class.
@@ -25,5 +31,9 @@ public class FXMLController implements Initializable {
         
         //
     }    
+
+    @FXML
+    private void doSomething(ActionEvent event) {
+    }
     
 }
