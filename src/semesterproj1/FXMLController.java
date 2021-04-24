@@ -45,6 +45,7 @@ public class FXMLController implements Initializable {
 
     @FXML
     private void doSomething2(ActionEvent event) {
+        myLabel.setText("Moaath Alrajab 2");
     }
     
 }
